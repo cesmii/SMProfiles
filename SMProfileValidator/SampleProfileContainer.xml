@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SMProfile>
+	<ProfileEnvelope>
+		<ContentChecksum>27724388f789c53232573a8209ec51f6f1479f87fa9076a4b7522bb4f62ba7b8</ContentChecksum>
+		<DeliveryStamps>
+			<DeliveryStamp>
+				<TimeStamp>2020-04-15T15:43:26.9394444-04:00</TimeStamp>
+				<URI>http://marketplace.cesmii.net</URI>
+			</DeliveryStamp>
+			<DeliveryStamp>
+				<TimeStamp>2020-04-15T15:43:26.9460437-04:00</TimeStamp>
+				<URI>http://customerinstance.cesmii.net</URI>
+			</DeliveryStamp>
+		</DeliveryStamps>
+		<FulfillmentUUID>88aecfb8-32ff-48b3-a56b-97e362ec62f1</FulfillmentUUID>
+		<RequestOrigin>http://customerinstance.cesmii.net</RequestOrigin>
+		<Subject>
+			<FQN>CESMII.EquipmentBaseType.ExtruderTypers.MyExtruderType</FQN>
+			<Version>1.0</Version>
+		</Subject>
+	</ProfileEnvelope>
+	<ProfileBody>
+		<Content />
+		<Header>
+			<ProfileAuthor>Franklin W. Dixon</ProfileAuthor>
+			<ProfileName>Franklins Extruder Base</ProfileName>
+			<ProfileNamespace>My.Internal.Namespace</ProfileNamespace>
+			<ProfileSignature>MIIBqAYJKoZIhvcNAQcDoIIBmTCCAZUCAQAxggFAMIIBPAIBADAkMBAxDjAMBgNVBAMMBVRlc3QxAhAcLuDlUsD1hEhgoiwpzcgbMA0GCSqGSIb3DQEBBzAABIIBAH + wEr6hEXeu1b2vCk5D0HhuwWthb8mdiX / L7uRuRYn0Xq7 + zGqV7Q0yIuHbKuM0yXClBU3rTTsysqGlh / du5O0C6qDniGQ9p7yZKSWtkr + bs1Y5s4jZdVTjtaxq5BU55pDspvvV9fWg0goJe6wjTTXhkymyXW9SVKc6h9u5trzB8DCxLy47lHvXsMNK0PPv2sco2FvZOKEjHfhTRfG5UzY588 + gszq7kN6pqyZfGXqdeukiL + 0 KKJUYQJf6qVSS16 b8O2aWu1FRXEDfm / 9 fS9PgOh5flnTHeXSLx39p3oRnzcxd4Lcs6vaKYCECgldVi1 + eqzTgrokQvFNLQ4xMJPowTAYJKoZIhvcNAQcBMB0GCWCGSAFlAwQBKgQQ3qIbAXUCiYNQF1UDTm6JtIAg4kgIhedyDivXsSErn2z / 2 Cr47VZoLQpIdrHp43P09g4 = </ProfileSignature>
+			<ProfileUUID>2a7e1018-dd0e-4386-a78b-d82e9363d910</ProfileUUID>
+			<ProfileVersion>0.0.1</ProfileVersion>
+		</Header>
+	</ProfileBody>
+</SMProfile>

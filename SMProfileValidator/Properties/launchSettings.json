@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SMProfileValidator": {
+      "commandName": "Project",
+      "commandLineArgs": "\"SampleProfileContainer.json\""
+    }
+  }
+}
