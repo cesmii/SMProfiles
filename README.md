@@ -34,7 +34,7 @@ Where ever possible, CESMII will be adopting existing standards, extending them 
 
 ## Application
 
-As an open specification, SM Profiles™ can be implemented by any platform. However, CESMII and its members are developing an implementation that can be used for reference, rapid innovation, and production use of the SM Profile capabilities. This Smart Manufacturing Innovation Platform™ (or SMIP™) includes a secure API that allows developers to build against SM Profile instances as an interface contract -- meaning an app can be written once, and re-deployed against any platform that implements the SM Profile.
+As an open specification, SM Profiles™ can be implemented by any platform. However, CESMII and its members are developing an implementation that can be used for reference, rapid innovation, and production use of the SM Profile capabilities. This Smart Manufacturing Innovation Platform™ (or SMIP™) includes a secure API that allows developers to build against SM Profile instances as an interface contract -- meaning an app can be written once, and re-deployed against any platform that implements the SM Profile. [Read more about the GraphQL API here](https://github.com/cesmii/API).
 
 Although its not strictly necessary, to fully realize the vision of the SM Profile, it needs to be applied at multiple levels. The CESMII SM Innovation Platform articulates three levels (other platforms may approach these problems differently).
 
