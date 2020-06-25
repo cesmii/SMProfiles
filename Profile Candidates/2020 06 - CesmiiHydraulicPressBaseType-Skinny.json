@@ -1,0 +1,604 @@
+{
+  "DisplayName": [
+    {
+      "Locale": "",
+      "Value": "Root"
+    }
+  ],
+  "NodeId": "i=84",
+  "BrowseName": "Root",
+  "WriteMask": 0,
+  "UserWriteMask": 0,
+  "AccessRestrictions": 0,
+  "ReleaseStatus": 0,
+  "ChildrenNodes": [
+    {
+      "DisplayName": [
+        {
+          "Locale": "",
+          "Value": "Types"
+        }
+      ],
+      "NodeId": "i=86",
+      "BrowseName": "Types",
+      "WriteMask": 0,
+      "UserWriteMask": 0,
+      "AccessRestrictions": 0,
+      "ReleaseStatus": 0,
+      "ChildrenNodes": [
+        {
+          "DisplayName": [
+            {
+              "Locale": "",
+              "Value": "ObjectTypes"
+            }
+          ],
+          "NodeId": "i=88",
+          "BrowseName": "ObjectTypes",
+          "WriteMask": 0,
+          "UserWriteMask": 0,
+          "AccessRestrictions": 0,
+          "ReleaseStatus": 0,
+          "ChildrenNodes": [
+            {
+              "DisplayName": [
+                {
+                  "Locale": "",
+                  "Value": "BaseObjectType"
+                }
+              ],
+              "NodeId": "i=58",
+              "BrowseName": "BaseObjectType",
+              "WriteMask": 0,
+              "UserWriteMask": 0,
+              "AccessRestrictions": 0,
+              "ReleaseStatus": 0,
+              "ChildrenNodes": [
+                {
+                  "DisplayName": [
+                    {
+                      "Locale": "",
+                      "Value": "HydraulicPressBaseType"
+                    }
+                  ],
+                  "NodeId": "ns=1;i=41",
+                  "BrowseName": "1:HydraulicPressBaseType",
+                  "WriteMask": 0,
+                  "UserWriteMask": 0,
+                  "AccessRestrictions": 0,
+                  "ReleaseStatus": 0,
+                  "ChildrenNodes": [
+                    {
+                      "DisplayName": [
+                        {
+                          "Locale": "",
+                          "Value": "HydraulicPressPerformance"
+                        }
+                      ],
+                      "NodeId": "ns=1;i=19169",
+                      "BrowseName": "1:HydraulicPressPerformance",
+                      "WriteMask": 0,
+                      "UserWriteMask": 0,
+                      "AccessRestrictions": 0,
+                      "ReleaseStatus": 0,
+                      "ChildrenNodes": [
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "TimeRunning"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=28145",
+                          "BrowseName": "1:TimeRunning",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=10",
+                          "DataTypeName": "Float"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "TimeFaulted"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=23281",
+                          "BrowseName": "1:TimeFaulted",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=10",
+                          "DataTypeName": "Float"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "ProductionCount"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=29358",
+                          "BrowseName": "1:ProductionCount",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=27",
+                          "DataTypeName": "Integer"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "CurrentState"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=11478",
+                          "BrowseName": "1:CurrentState",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=19",
+                          "DataTypeName": "StatusCode"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "ScrapCount"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=24464",
+                          "BrowseName": "1:ScrapCount",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=26",
+                          "DataTypeName": "Number"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "SetupCycles"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=5705",
+                          "BrowseName": "1:SetupCycles",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=27",
+                          "DataTypeName": "Integer"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "TimeStarved"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=16827",
+                          "BrowseName": "1:TimeStarved",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=10",
+                          "DataTypeName": "Float"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "TimeBlocked"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=9961",
+                          "BrowseName": "1:TimeBlocked",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=10",
+                          "DataTypeName": "Float"
+                        }
+                      ],
+                      "TypeDefinition": [
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "SystemConditionClassType"
+                            }
+                          ],
+                          "NodeId": "i=11166",
+                          "BrowseName": "SystemConditionClassType",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": []
+                        }
+                      ]
+                    },
+                    {
+                      "DisplayName": [
+                        {
+                          "Locale": "",
+                          "Value": "HydraulicPressCondition"
+                        }
+                      ],
+                      "NodeId": "ns=1;i=7376",
+                      "BrowseName": "1:HydraulicPressCondition",
+                      "WriteMask": 0,
+                      "UserWriteMask": 0,
+                      "AccessRestrictions": 0,
+                      "ReleaseStatus": 0,
+                      "ChildrenNodes": [
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "HydraulicPressConditionZone"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=13977",
+                          "BrowseName": "1:HydraulicPressConditionZone",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "RatedTemperature"
+                                }
+                              ],
+                              "NodeId": "ns=1;i=26924",
+                              "BrowseName": "1:RatedTemperature",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": [
+                                {
+                                  "DisplayName": [
+                                    {
+                                      "Locale": "",
+                                      "Value": "PropertyType"
+                                    }
+                                  ],
+                                  "NodeId": "i=68",
+                                  "BrowseName": "PropertyType",
+                                  "WriteMask": 0,
+                                  "UserWriteMask": 0,
+                                  "AccessRestrictions": 0,
+                                  "ReleaseStatus": 0,
+                                  "ChildrenNodes": [],
+                                  "TypeDefinition": []
+                                }
+                              ],
+                              "DataTypeId": "i=26",
+                              "DataTypeName": "Number"
+                            },
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "CurrentPressure"
+                                }
+                              ],
+                              "NodeId": "ns=1;i=5021",
+                              "BrowseName": "1:CurrentPressure",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": [
+                                {
+                                  "DisplayName": [
+                                    {
+                                      "Locale": "",
+                                      "Value": "BaseDataVariableType"
+                                    }
+                                  ],
+                                  "NodeId": "i=63",
+                                  "BrowseName": "BaseDataVariableType",
+                                  "WriteMask": 0,
+                                  "UserWriteMask": 0,
+                                  "AccessRestrictions": 0,
+                                  "ReleaseStatus": 0,
+                                  "ChildrenNodes": [],
+                                  "TypeDefinition": []
+                                }
+                              ],
+                              "DataTypeId": "i=10",
+                              "DataTypeName": "Float"
+                            },
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "CurrentTemperature"
+                                }
+                              ],
+                              "NodeId": "ns=1;i=22386",
+                              "BrowseName": "1:CurrentTemperature",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": [
+                                {
+                                  "DisplayName": [
+                                    {
+                                      "Locale": "",
+                                      "Value": "BaseDataVariableType"
+                                    }
+                                  ],
+                                  "NodeId": "i=63",
+                                  "BrowseName": "BaseDataVariableType",
+                                  "WriteMask": 0,
+                                  "UserWriteMask": 0,
+                                  "AccessRestrictions": 0,
+                                  "ReleaseStatus": 0,
+                                  "ChildrenNodes": [],
+                                  "TypeDefinition": []
+                                }
+                              ],
+                              "DataTypeId": "i=10",
+                              "DataTypeName": "Float"
+                            },
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "RatedPressure"
+                                }
+                              ],
+                              "NodeId": "ns=1;i=28745",
+                              "BrowseName": "1:RatedPressure",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": [
+                                {
+                                  "DisplayName": [
+                                    {
+                                      "Locale": "",
+                                      "Value": "PropertyType"
+                                    }
+                                  ],
+                                  "NodeId": "i=68",
+                                  "BrowseName": "PropertyType",
+                                  "WriteMask": 0,
+                                  "UserWriteMask": 0,
+                                  "AccessRestrictions": 0,
+                                  "ReleaseStatus": 0,
+                                  "ChildrenNodes": [],
+                                  "TypeDefinition": []
+                                }
+                              ],
+                              "DataTypeId": "i=10",
+                              "DataTypeName": "Float"
+                            }
+                          ],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "MaintenanceConditionClassType"
+                                }
+                              ],
+                              "NodeId": "i=11165",
+                              "BrowseName": "MaintenanceConditionClassType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ]
+                        }
+                      ],
+                      "TypeDefinition": [
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "MaintenanceConditionClassType"
+                            }
+                          ],
+                          "NodeId": "i=11165",
+                          "BrowseName": "MaintenanceConditionClassType",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": []
+                        }
+                      ]
+                    }
+                  ],
+                  "TypeDefinition": []
+                }
+              ],
+              "TypeDefinition": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

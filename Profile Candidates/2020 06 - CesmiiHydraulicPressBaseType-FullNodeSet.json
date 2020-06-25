@@ -1,0 +1,3822 @@
+{
+  "DisplayName": [
+    {
+      "Locale": "",
+      "Value": "Root"
+    }
+  ],
+  "References": [
+    {
+      "ReferenceType": "i=40",
+      "IsForward": true,
+      "Value": "i=61"
+    },
+    {
+      "ReferenceType": "i=35",
+      "IsForward": true,
+      "Value": "i=85"
+    },
+    {
+      "ReferenceType": "i=35",
+      "IsForward": true,
+      "Value": "i=86"
+    },
+    {
+      "ReferenceType": "i=35",
+      "IsForward": true,
+      "Value": "i=87"
+    }
+  ],
+  "NodeId": "i=84",
+  "BrowseName": "Root",
+  "WriteMask": 0,
+  "UserWriteMask": 0,
+  "AccessRestrictions": 0,
+  "ReleaseStatus": 0,
+  "ChildrenNodes": [
+    {
+      "DisplayName": [
+        {
+          "Locale": "",
+          "Value": "Objects"
+        }
+      ],
+      "References": [
+        {
+          "ReferenceType": "i=35",
+          "IsForward": false,
+          "Value": "i=84"
+        },
+        {
+          "ReferenceType": "i=40",
+          "IsForward": true,
+          "Value": "i=61"
+        },
+        {
+          "ReferenceType": "i=35",
+          "IsForward": true,
+          "Value": "i=2253"
+        }
+      ],
+      "NodeId": "i=85",
+      "BrowseName": "Objects",
+      "WriteMask": 0,
+      "UserWriteMask": 0,
+      "AccessRestrictions": 0,
+      "ReleaseStatus": 0,
+      "ChildrenNodes": [],
+      "TypeDefinition": [
+        {
+          "DisplayName": [
+            {
+              "Locale": "",
+              "Value": "FolderType"
+            }
+          ],
+          "References": [
+            {
+              "ReferenceType": "i=45",
+              "IsForward": false,
+              "Value": "i=58"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=11564"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=13353"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=17591"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=16405"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=13813"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=17496"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=15452"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=14477"
+            }
+          ],
+          "NodeId": "i=61",
+          "BrowseName": "FolderType",
+          "WriteMask": 0,
+          "UserWriteMask": 0,
+          "AccessRestrictions": 0,
+          "ReleaseStatus": 0,
+          "ChildrenNodes": [],
+          "TypeDefinition": []
+        }
+      ]
+    },
+    {
+      "DisplayName": [
+        {
+          "Locale": "",
+          "Value": "Types"
+        }
+      ],
+      "References": [
+        {
+          "ReferenceType": "i=35",
+          "IsForward": false,
+          "Value": "i=84"
+        },
+        {
+          "ReferenceType": "i=40",
+          "IsForward": true,
+          "Value": "i=61"
+        },
+        {
+          "ReferenceType": "i=35",
+          "IsForward": true,
+          "Value": "i=88"
+        },
+        {
+          "ReferenceType": "i=35",
+          "IsForward": true,
+          "Value": "i=89"
+        },
+        {
+          "ReferenceType": "i=35",
+          "IsForward": true,
+          "Value": "i=90"
+        },
+        {
+          "ReferenceType": "i=35",
+          "IsForward": true,
+          "Value": "i=91"
+        },
+        {
+          "ReferenceType": "i=35",
+          "IsForward": true,
+          "Value": "i=3048"
+        },
+        {
+          "ReferenceType": "i=35",
+          "IsForward": true,
+          "Value": "i=17708"
+        }
+      ],
+      "NodeId": "i=86",
+      "BrowseName": "Types",
+      "WriteMask": 0,
+      "UserWriteMask": 0,
+      "AccessRestrictions": 0,
+      "ReleaseStatus": 0,
+      "ChildrenNodes": [
+        {
+          "DisplayName": [
+            {
+              "Locale": "",
+              "Value": "ObjectTypes"
+            }
+          ],
+          "References": [
+            {
+              "ReferenceType": "i=35",
+              "IsForward": false,
+              "Value": "i=86"
+            },
+            {
+              "ReferenceType": "i=35",
+              "IsForward": true,
+              "Value": "i=58"
+            },
+            {
+              "ReferenceType": "i=40",
+              "IsForward": true,
+              "Value": "i=61"
+            }
+          ],
+          "NodeId": "i=88",
+          "BrowseName": "ObjectTypes",
+          "WriteMask": 0,
+          "UserWriteMask": 0,
+          "AccessRestrictions": 0,
+          "ReleaseStatus": 0,
+          "ChildrenNodes": [
+            {
+              "DisplayName": [
+                {
+                  "Locale": "",
+                  "Value": "BaseObjectType"
+                }
+              ],
+              "References": [
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=61"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=75"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=76"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=77"
+                },
+                {
+                  "ReferenceType": "i=35",
+                  "IsForward": false,
+                  "Value": "i=88"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2004"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2013"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2020"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2026"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2029"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2033"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2034"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=11575"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=11616"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=11645"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2041"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2340"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2299"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2307"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2310"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15744"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15607"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15620"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17589"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17602"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=11163"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17279"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2318"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=2330"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=12555"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=12556"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=12581"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=18001"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17852"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=11187"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15906"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15471"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=14509"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15489"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=14209"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17721"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=14232"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17997"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17998"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=21090"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=21091"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15298"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15305"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=21096"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15306"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15319"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=21104"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15108"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=14643"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=19677"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=21145"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "ns=1;i=41"
+                }
+              ],
+              "NodeId": "i=58",
+              "BrowseName": "BaseObjectType",
+              "WriteMask": 0,
+              "UserWriteMask": 0,
+              "AccessRestrictions": 0,
+              "ReleaseStatus": 0,
+              "ChildrenNodes": [
+                {
+                  "DisplayName": [
+                    {
+                      "Locale": "",
+                      "Value": "HydraulicPressBaseType"
+                    }
+                  ],
+                  "References": [
+                    {
+                      "ReferenceType": "i=47",
+                      "IsForward": true,
+                      "Value": "ns=1;i=7376"
+                    },
+                    {
+                      "ReferenceType": "i=47",
+                      "IsForward": true,
+                      "Value": "ns=1;i=19169"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": false,
+                      "Value": "i=58"
+                    }
+                  ],
+                  "NodeId": "ns=1;i=41",
+                  "BrowseName": "1:HydraulicPressBaseType",
+                  "WriteMask": 0,
+                  "UserWriteMask": 0,
+                  "AccessRestrictions": 0,
+                  "ReleaseStatus": 0,
+                  "ChildrenNodes": [
+                    {
+                      "DisplayName": [
+                        {
+                          "Locale": "",
+                          "Value": "HydraulicPressPerformance"
+                        }
+                      ],
+                      "References": [
+                        {
+                          "ReferenceType": "i=47",
+                          "IsForward": true,
+                          "Value": "ns=1;i=9961"
+                        },
+                        {
+                          "ReferenceType": "i=47",
+                          "IsForward": true,
+                          "Value": "ns=1;i=16827"
+                        },
+                        {
+                          "ReferenceType": "i=47",
+                          "IsForward": true,
+                          "Value": "ns=1;i=5705"
+                        },
+                        {
+                          "ReferenceType": "i=47",
+                          "IsForward": true,
+                          "Value": "ns=1;i=24464"
+                        },
+                        {
+                          "ReferenceType": "i=47",
+                          "IsForward": true,
+                          "Value": "ns=1;i=11478"
+                        },
+                        {
+                          "ReferenceType": "i=47",
+                          "IsForward": true,
+                          "Value": "ns=1;i=29358"
+                        },
+                        {
+                          "ReferenceType": "i=47",
+                          "IsForward": true,
+                          "Value": "ns=1;i=23281"
+                        },
+                        {
+                          "ReferenceType": "i=47",
+                          "IsForward": true,
+                          "Value": "ns=1;i=28145"
+                        },
+                        {
+                          "ReferenceType": "i=47",
+                          "IsForward": false,
+                          "Value": "ns=1;i=41"
+                        },
+                        {
+                          "ReferenceType": "i=40",
+                          "IsForward": true,
+                          "Value": "i=11166"
+                        }
+                      ],
+                      "NodeId": "ns=1;i=19169",
+                      "BrowseName": "1:HydraulicPressPerformance",
+                      "WriteMask": 0,
+                      "UserWriteMask": 0,
+                      "AccessRestrictions": 0,
+                      "ReleaseStatus": 0,
+                      "ChildrenNodes": [
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "TimeRunning"
+                            }
+                          ],
+                          "References": [
+                            {
+                              "ReferenceType": "i=47",
+                              "IsForward": false,
+                              "Value": "ns=1;i=19169"
+                            },
+                            {
+                              "ReferenceType": "i=40",
+                              "IsForward": true,
+                              "Value": "i=63"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=28145",
+                          "BrowseName": "1:TimeRunning",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": false,
+                                  "Value": "i=62"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=69"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=72"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2137"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2138"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=3051"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2150"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2164"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2165"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2171"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2172"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2196"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2197"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2243"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2244"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=11487"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=16309"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17986"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2755"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2762"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15113"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17709"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17714"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18772"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18779"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18786"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2365"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=9002"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17277"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2380"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15383"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=19725"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=10",
+                          "DataTypeName": "Float"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "TimeFaulted"
+                            }
+                          ],
+                          "References": [
+                            {
+                              "ReferenceType": "i=47",
+                              "IsForward": false,
+                              "Value": "ns=1;i=19169"
+                            },
+                            {
+                              "ReferenceType": "i=40",
+                              "IsForward": true,
+                              "Value": "i=63"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=23281",
+                          "BrowseName": "1:TimeFaulted",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": false,
+                                  "Value": "i=62"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=69"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=72"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2137"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2138"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=3051"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2150"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2164"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2165"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2171"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2172"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2196"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2197"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2243"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2244"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=11487"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=16309"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17986"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2755"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2762"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15113"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17709"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17714"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18772"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18779"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18786"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2365"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=9002"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17277"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2380"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15383"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=19725"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=10",
+                          "DataTypeName": "Float"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "ProductionCount"
+                            }
+                          ],
+                          "References": [
+                            {
+                              "ReferenceType": "i=47",
+                              "IsForward": false,
+                              "Value": "ns=1;i=19169"
+                            },
+                            {
+                              "ReferenceType": "i=40",
+                              "IsForward": true,
+                              "Value": "i=63"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=29358",
+                          "BrowseName": "1:ProductionCount",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": false,
+                                  "Value": "i=62"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=69"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=72"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2137"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2138"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=3051"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2150"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2164"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2165"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2171"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2172"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2196"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2197"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2243"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2244"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=11487"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=16309"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17986"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2755"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2762"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15113"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17709"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17714"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18772"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18779"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18786"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2365"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=9002"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17277"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2380"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15383"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=19725"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=27",
+                          "DataTypeName": "Integer"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "CurrentState"
+                            }
+                          ],
+                          "References": [
+                            {
+                              "ReferenceType": "i=47",
+                              "IsForward": false,
+                              "Value": "ns=1;i=19169"
+                            },
+                            {
+                              "ReferenceType": "i=40",
+                              "IsForward": true,
+                              "Value": "i=63"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=11478",
+                          "BrowseName": "1:CurrentState",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": false,
+                                  "Value": "i=62"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=69"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=72"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2137"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2138"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=3051"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2150"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2164"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2165"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2171"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2172"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2196"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2197"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2243"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2244"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=11487"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=16309"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17986"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2755"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2762"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15113"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17709"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17714"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18772"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18779"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18786"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2365"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=9002"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17277"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2380"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15383"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=19725"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=19",
+                          "DataTypeName": "StatusCode"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "ScrapCount"
+                            }
+                          ],
+                          "References": [
+                            {
+                              "ReferenceType": "i=47",
+                              "IsForward": false,
+                              "Value": "ns=1;i=19169"
+                            },
+                            {
+                              "ReferenceType": "i=40",
+                              "IsForward": true,
+                              "Value": "i=63"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=24464",
+                          "BrowseName": "1:ScrapCount",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": false,
+                                  "Value": "i=62"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=69"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=72"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2137"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2138"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=3051"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2150"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2164"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2165"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2171"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2172"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2196"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2197"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2243"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2244"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=11487"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=16309"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17986"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2755"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2762"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15113"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17709"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17714"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18772"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18779"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18786"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2365"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=9002"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17277"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2380"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15383"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=19725"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=26",
+                          "DataTypeName": "Number"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "SetupCycles"
+                            }
+                          ],
+                          "References": [
+                            {
+                              "ReferenceType": "i=47",
+                              "IsForward": false,
+                              "Value": "ns=1;i=19169"
+                            },
+                            {
+                              "ReferenceType": "i=40",
+                              "IsForward": true,
+                              "Value": "i=63"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=5705",
+                          "BrowseName": "1:SetupCycles",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": false,
+                                  "Value": "i=62"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=69"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=72"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2137"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2138"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=3051"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2150"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2164"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2165"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2171"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2172"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2196"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2197"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2243"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2244"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=11487"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=16309"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17986"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2755"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2762"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15113"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17709"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17714"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18772"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18779"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18786"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2365"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=9002"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17277"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2380"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15383"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=19725"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=27",
+                          "DataTypeName": "Integer"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "TimeStarved"
+                            }
+                          ],
+                          "References": [
+                            {
+                              "ReferenceType": "i=47",
+                              "IsForward": false,
+                              "Value": "ns=1;i=19169"
+                            },
+                            {
+                              "ReferenceType": "i=40",
+                              "IsForward": true,
+                              "Value": "i=63"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=16827",
+                          "BrowseName": "1:TimeStarved",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": false,
+                                  "Value": "i=62"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=69"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=72"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2137"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2138"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=3051"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2150"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2164"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2165"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2171"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2172"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2196"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2197"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2243"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2244"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=11487"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=16309"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17986"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2755"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2762"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15113"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17709"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17714"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18772"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18779"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18786"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2365"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=9002"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17277"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2380"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15383"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=19725"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=10",
+                          "DataTypeName": "Float"
+                        },
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "TimeBlocked"
+                            }
+                          ],
+                          "References": [
+                            {
+                              "ReferenceType": "i=47",
+                              "IsForward": false,
+                              "Value": "ns=1;i=19169"
+                            },
+                            {
+                              "ReferenceType": "i=40",
+                              "IsForward": true,
+                              "Value": "i=63"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=9961",
+                          "BrowseName": "1:TimeBlocked",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "BaseDataVariableType"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": false,
+                                  "Value": "i=62"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=69"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=72"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2137"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2138"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=3051"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2150"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2164"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2165"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2171"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2172"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2196"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2197"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2243"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2244"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=11487"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=16309"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17986"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2755"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2762"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15113"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17709"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17714"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18772"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18779"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=18786"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2365"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=9002"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=17277"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=2380"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=15383"
+                                },
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": true,
+                                  "Value": "i=19725"
+                                }
+                              ],
+                              "NodeId": "i=63",
+                              "BrowseName": "BaseDataVariableType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ],
+                          "DataTypeId": "i=10",
+                          "DataTypeName": "Float"
+                        }
+                      ],
+                      "TypeDefinition": [
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "SystemConditionClassType"
+                            }
+                          ],
+                          "References": [
+                            {
+                              "ReferenceType": "i=45",
+                              "IsForward": false,
+                              "Value": "i=11163"
+                            }
+                          ],
+                          "NodeId": "i=11166",
+                          "BrowseName": "SystemConditionClassType",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": []
+                        }
+                      ]
+                    },
+                    {
+                      "DisplayName": [
+                        {
+                          "Locale": "",
+                          "Value": "HydraulicPressCondition"
+                        }
+                      ],
+                      "References": [
+                        {
+                          "ReferenceType": "i=47",
+                          "IsForward": false,
+                          "Value": "ns=1;i=41"
+                        },
+                        {
+                          "ReferenceType": "i=40",
+                          "IsForward": true,
+                          "Value": "i=11165"
+                        },
+                        {
+                          "ReferenceType": "i=47",
+                          "IsForward": true,
+                          "Value": "ns=1;i=13977"
+                        }
+                      ],
+                      "NodeId": "ns=1;i=7376",
+                      "BrowseName": "1:HydraulicPressCondition",
+                      "WriteMask": 0,
+                      "UserWriteMask": 0,
+                      "AccessRestrictions": 0,
+                      "ReleaseStatus": 0,
+                      "ChildrenNodes": [
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "HydraulicPressConditionZone"
+                            }
+                          ],
+                          "References": [
+                            {
+                              "ReferenceType": "i=46",
+                              "IsForward": true,
+                              "Value": "ns=1;i=28745"
+                            },
+                            {
+                              "ReferenceType": "i=47",
+                              "IsForward": true,
+                              "Value": "ns=1;i=22386"
+                            },
+                            {
+                              "ReferenceType": "i=47",
+                              "IsForward": false,
+                              "Value": "ns=1;i=7376"
+                            },
+                            {
+                              "ReferenceType": "i=47",
+                              "IsForward": true,
+                              "Value": "ns=1;i=5021"
+                            },
+                            {
+                              "ReferenceType": "i=40",
+                              "IsForward": true,
+                              "Value": "i=11165"
+                            },
+                            {
+                              "ReferenceType": "i=46",
+                              "IsForward": true,
+                              "Value": "ns=1;i=26924"
+                            }
+                          ],
+                          "NodeId": "ns=1;i=13977",
+                          "BrowseName": "1:HydraulicPressConditionZone",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "RatedTemperature"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=46",
+                                  "IsForward": false,
+                                  "Value": "ns=1;i=13977"
+                                },
+                                {
+                                  "ReferenceType": "i=40",
+                                  "IsForward": true,
+                                  "Value": "i=68"
+                                }
+                              ],
+                              "NodeId": "ns=1;i=26924",
+                              "BrowseName": "1:RatedTemperature",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": [
+                                {
+                                  "DisplayName": [
+                                    {
+                                      "Locale": "",
+                                      "Value": "PropertyType"
+                                    }
+                                  ],
+                                  "References": [
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": false,
+                                      "Value": "i=62"
+                                    }
+                                  ],
+                                  "NodeId": "i=68",
+                                  "BrowseName": "PropertyType",
+                                  "WriteMask": 0,
+                                  "UserWriteMask": 0,
+                                  "AccessRestrictions": 0,
+                                  "ReleaseStatus": 0,
+                                  "ChildrenNodes": [],
+                                  "TypeDefinition": []
+                                }
+                              ],
+                              "DataTypeId": "i=26",
+                              "DataTypeName": "Number"
+                            },
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "CurrentPressure"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=47",
+                                  "IsForward": false,
+                                  "Value": "ns=1;i=13977"
+                                },
+                                {
+                                  "ReferenceType": "i=40",
+                                  "IsForward": true,
+                                  "Value": "i=63"
+                                }
+                              ],
+                              "NodeId": "ns=1;i=5021",
+                              "BrowseName": "1:CurrentPressure",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": [
+                                {
+                                  "DisplayName": [
+                                    {
+                                      "Locale": "",
+                                      "Value": "BaseDataVariableType"
+                                    }
+                                  ],
+                                  "References": [
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": false,
+                                      "Value": "i=62"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=69"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=72"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2137"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2138"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=3051"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2150"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2164"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2165"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2171"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2172"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2196"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2197"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2243"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2244"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=11487"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=16309"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=17986"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2755"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2762"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=15113"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=17709"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=17714"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=18772"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=18779"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=18786"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2365"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=9002"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=17277"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2380"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=15383"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=19725"
+                                    }
+                                  ],
+                                  "NodeId": "i=63",
+                                  "BrowseName": "BaseDataVariableType",
+                                  "WriteMask": 0,
+                                  "UserWriteMask": 0,
+                                  "AccessRestrictions": 0,
+                                  "ReleaseStatus": 0,
+                                  "ChildrenNodes": [],
+                                  "TypeDefinition": []
+                                }
+                              ],
+                              "DataTypeId": "i=10",
+                              "DataTypeName": "Float"
+                            },
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "CurrentTemperature"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=47",
+                                  "IsForward": false,
+                                  "Value": "ns=1;i=13977"
+                                },
+                                {
+                                  "ReferenceType": "i=40",
+                                  "IsForward": true,
+                                  "Value": "i=63"
+                                }
+                              ],
+                              "NodeId": "ns=1;i=22386",
+                              "BrowseName": "1:CurrentTemperature",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": [
+                                {
+                                  "DisplayName": [
+                                    {
+                                      "Locale": "",
+                                      "Value": "BaseDataVariableType"
+                                    }
+                                  ],
+                                  "References": [
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": false,
+                                      "Value": "i=62"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=69"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=72"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2137"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2138"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=3051"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2150"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2164"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2165"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2171"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2172"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2196"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2197"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2243"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2244"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=11487"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=16309"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=17986"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2755"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2762"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=15113"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=17709"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=17714"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=18772"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=18779"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=18786"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2365"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=9002"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=17277"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=2380"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=15383"
+                                    },
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": true,
+                                      "Value": "i=19725"
+                                    }
+                                  ],
+                                  "NodeId": "i=63",
+                                  "BrowseName": "BaseDataVariableType",
+                                  "WriteMask": 0,
+                                  "UserWriteMask": 0,
+                                  "AccessRestrictions": 0,
+                                  "ReleaseStatus": 0,
+                                  "ChildrenNodes": [],
+                                  "TypeDefinition": []
+                                }
+                              ],
+                              "DataTypeId": "i=10",
+                              "DataTypeName": "Float"
+                            },
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "RatedPressure"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=46",
+                                  "IsForward": false,
+                                  "Value": "ns=1;i=13977"
+                                },
+                                {
+                                  "ReferenceType": "i=40",
+                                  "IsForward": true,
+                                  "Value": "i=68"
+                                }
+                              ],
+                              "NodeId": "ns=1;i=28745",
+                              "BrowseName": "1:RatedPressure",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": [
+                                {
+                                  "DisplayName": [
+                                    {
+                                      "Locale": "",
+                                      "Value": "PropertyType"
+                                    }
+                                  ],
+                                  "References": [
+                                    {
+                                      "ReferenceType": "i=45",
+                                      "IsForward": false,
+                                      "Value": "i=62"
+                                    }
+                                  ],
+                                  "NodeId": "i=68",
+                                  "BrowseName": "PropertyType",
+                                  "WriteMask": 0,
+                                  "UserWriteMask": 0,
+                                  "AccessRestrictions": 0,
+                                  "ReleaseStatus": 0,
+                                  "ChildrenNodes": [],
+                                  "TypeDefinition": []
+                                }
+                              ],
+                              "DataTypeId": "i=10",
+                              "DataTypeName": "Float"
+                            }
+                          ],
+                          "TypeDefinition": [
+                            {
+                              "DisplayName": [
+                                {
+                                  "Locale": "",
+                                  "Value": "MaintenanceConditionClassType"
+                                }
+                              ],
+                              "References": [
+                                {
+                                  "ReferenceType": "i=45",
+                                  "IsForward": false,
+                                  "Value": "i=11163"
+                                }
+                              ],
+                              "NodeId": "i=11165",
+                              "BrowseName": "MaintenanceConditionClassType",
+                              "WriteMask": 0,
+                              "UserWriteMask": 0,
+                              "AccessRestrictions": 0,
+                              "ReleaseStatus": 0,
+                              "ChildrenNodes": [],
+                              "TypeDefinition": []
+                            }
+                          ]
+                        }
+                      ],
+                      "TypeDefinition": [
+                        {
+                          "DisplayName": [
+                            {
+                              "Locale": "",
+                              "Value": "MaintenanceConditionClassType"
+                            }
+                          ],
+                          "References": [
+                            {
+                              "ReferenceType": "i=45",
+                              "IsForward": false,
+                              "Value": "i=11163"
+                            }
+                          ],
+                          "NodeId": "i=11165",
+                          "BrowseName": "MaintenanceConditionClassType",
+                          "WriteMask": 0,
+                          "UserWriteMask": 0,
+                          "AccessRestrictions": 0,
+                          "ReleaseStatus": 0,
+                          "ChildrenNodes": [],
+                          "TypeDefinition": []
+                        }
+                      ]
+                    }
+                  ],
+                  "TypeDefinition": []
+                }
+              ],
+              "TypeDefinition": []
+            }
+          ],
+          "TypeDefinition": [
+            {
+              "DisplayName": [
+                {
+                  "Locale": "",
+                  "Value": "FolderType"
+                }
+              ],
+              "References": [
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": false,
+                  "Value": "i=58"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=11564"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=13353"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17591"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=16405"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=13813"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17496"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15452"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=14477"
+                }
+              ],
+              "NodeId": "i=61",
+              "BrowseName": "FolderType",
+              "WriteMask": 0,
+              "UserWriteMask": 0,
+              "AccessRestrictions": 0,
+              "ReleaseStatus": 0,
+              "ChildrenNodes": [],
+              "TypeDefinition": []
+            }
+          ]
+        },
+        {
+          "DisplayName": [
+            {
+              "Locale": "",
+              "Value": "VariableTypes"
+            }
+          ],
+          "References": [
+            {
+              "ReferenceType": "i=35",
+              "IsForward": false,
+              "Value": "i=86"
+            },
+            {
+              "ReferenceType": "i=35",
+              "IsForward": true,
+              "Value": "i=62"
+            },
+            {
+              "ReferenceType": "i=40",
+              "IsForward": true,
+              "Value": "i=61"
+            }
+          ],
+          "NodeId": "i=89",
+          "BrowseName": "VariableTypes",
+          "WriteMask": 0,
+          "UserWriteMask": 0,
+          "AccessRestrictions": 0,
+          "ReleaseStatus": 0,
+          "ChildrenNodes": [
+            {
+              "DisplayName": [
+                {
+                  "Locale": "",
+                  "Value": "BaseVariableType"
+                }
+              ],
+              "References": [
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=63"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=68"
+                },
+                {
+                  "ReferenceType": "i=35",
+                  "IsForward": false,
+                  "Value": "i=89"
+                }
+              ],
+              "NodeId": "i=62",
+              "BrowseName": "BaseVariableType",
+              "WriteMask": 0,
+              "UserWriteMask": 0,
+              "AccessRestrictions": 0,
+              "ReleaseStatus": 0,
+              "ChildrenNodes": [
+                {
+                  "DisplayName": [
+                    {
+                      "Locale": "",
+                      "Value": "BaseDataVariableType"
+                    }
+                  ],
+                  "References": [
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": false,
+                      "Value": "i=62"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=69"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=72"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2137"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2138"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=3051"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2150"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2164"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2165"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2171"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2172"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2196"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2197"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2243"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2244"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=11487"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=16309"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=17986"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2755"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2762"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=15113"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=17709"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=17714"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=18772"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=18779"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=18786"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2365"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=9002"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=17277"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=2380"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=15383"
+                    },
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": true,
+                      "Value": "i=19725"
+                    }
+                  ],
+                  "NodeId": "i=63",
+                  "BrowseName": "BaseDataVariableType",
+                  "WriteMask": 0,
+                  "UserWriteMask": 0,
+                  "AccessRestrictions": 0,
+                  "ReleaseStatus": 0,
+                  "ChildrenNodes": [],
+                  "TypeDefinition": []
+                },
+                {
+                  "DisplayName": [
+                    {
+                      "Locale": "",
+                      "Value": "PropertyType"
+                    }
+                  ],
+                  "References": [
+                    {
+                      "ReferenceType": "i=45",
+                      "IsForward": false,
+                      "Value": "i=62"
+                    }
+                  ],
+                  "NodeId": "i=68",
+                  "BrowseName": "PropertyType",
+                  "WriteMask": 0,
+                  "UserWriteMask": 0,
+                  "AccessRestrictions": 0,
+                  "ReleaseStatus": 0,
+                  "ChildrenNodes": [],
+                  "TypeDefinition": []
+                }
+              ],
+              "TypeDefinition": []
+            }
+          ],
+          "TypeDefinition": [
+            {
+              "DisplayName": [
+                {
+                  "Locale": "",
+                  "Value": "FolderType"
+                }
+              ],
+              "References": [
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": false,
+                  "Value": "i=58"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=11564"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=13353"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17591"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=16405"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=13813"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17496"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15452"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=14477"
+                }
+              ],
+              "NodeId": "i=61",
+              "BrowseName": "FolderType",
+              "WriteMask": 0,
+              "UserWriteMask": 0,
+              "AccessRestrictions": 0,
+              "ReleaseStatus": 0,
+              "ChildrenNodes": [],
+              "TypeDefinition": []
+            }
+          ]
+        },
+        {
+          "DisplayName": [
+            {
+              "Locale": "",
+              "Value": "DataTypes"
+            }
+          ],
+          "References": [
+            {
+              "ReferenceType": "i=35",
+              "IsForward": false,
+              "Value": "i=86"
+            },
+            {
+              "ReferenceType": "i=35",
+              "IsForward": true,
+              "Value": "i=24"
+            },
+            {
+              "ReferenceType": "i=40",
+              "IsForward": true,
+              "Value": "i=61"
+            },
+            {
+              "ReferenceType": "i=35",
+              "IsForward": true,
+              "Value": "i=92"
+            },
+            {
+              "ReferenceType": "i=35",
+              "IsForward": true,
+              "Value": "i=93"
+            }
+          ],
+          "NodeId": "i=90",
+          "BrowseName": "DataTypes",
+          "WriteMask": 0,
+          "UserWriteMask": 0,
+          "AccessRestrictions": 0,
+          "ReleaseStatus": 0,
+          "ChildrenNodes": [
+            {
+              "DisplayName": [
+                {
+                  "Locale": "",
+                  "Value": "BaseDataType"
+                }
+              ],
+              "References": [
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=26"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=29"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=1"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=12"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=13"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=14"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=16"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=18"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=19"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=20"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=21"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=22"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=23"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=25"
+                },
+                {
+                  "ReferenceType": "i=35",
+                  "IsForward": false,
+                  "Value": "i=90"
+                }
+              ],
+              "NodeId": "i=24",
+              "BrowseName": "BaseDataType",
+              "WriteMask": 0,
+              "UserWriteMask": 0,
+              "AccessRestrictions": 0,
+              "ReleaseStatus": 0,
+              "ChildrenNodes": [],
+              "TypeDefinition": []
+            }
+          ],
+          "TypeDefinition": [
+            {
+              "DisplayName": [
+                {
+                  "Locale": "",
+                  "Value": "FolderType"
+                }
+              ],
+              "References": [
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": false,
+                  "Value": "i=58"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=11564"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=13353"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17591"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=16405"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=13813"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17496"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15452"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=14477"
+                }
+              ],
+              "NodeId": "i=61",
+              "BrowseName": "FolderType",
+              "WriteMask": 0,
+              "UserWriteMask": 0,
+              "AccessRestrictions": 0,
+              "ReleaseStatus": 0,
+              "ChildrenNodes": [],
+              "TypeDefinition": []
+            }
+          ]
+        },
+        {
+          "DisplayName": [
+            {
+              "Locale": "",
+              "Value": "ReferenceTypes"
+            }
+          ],
+          "References": [
+            {
+              "ReferenceType": "i=35",
+              "IsForward": false,
+              "Value": "i=86"
+            },
+            {
+              "ReferenceType": "i=35",
+              "IsForward": true,
+              "Value": "i=31"
+            },
+            {
+              "ReferenceType": "i=40",
+              "IsForward": true,
+              "Value": "i=61"
+            }
+          ],
+          "NodeId": "i=91",
+          "BrowseName": "ReferenceTypes",
+          "WriteMask": 0,
+          "UserWriteMask": 0,
+          "AccessRestrictions": 0,
+          "ReleaseStatus": 0,
+          "ChildrenNodes": [],
+          "TypeDefinition": [
+            {
+              "DisplayName": [
+                {
+                  "Locale": "",
+                  "Value": "FolderType"
+                }
+              ],
+              "References": [
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": false,
+                  "Value": "i=58"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=11564"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=13353"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17591"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=16405"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=13813"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=17496"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=15452"
+                },
+                {
+                  "ReferenceType": "i=45",
+                  "IsForward": true,
+                  "Value": "i=14477"
+                }
+              ],
+              "NodeId": "i=61",
+              "BrowseName": "FolderType",
+              "WriteMask": 0,
+              "UserWriteMask": 0,
+              "AccessRestrictions": 0,
+              "ReleaseStatus": 0,
+              "ChildrenNodes": [],
+              "TypeDefinition": []
+            }
+          ]
+        }
+      ],
+      "TypeDefinition": [
+        {
+          "DisplayName": [
+            {
+              "Locale": "",
+              "Value": "FolderType"
+            }
+          ],
+          "References": [
+            {
+              "ReferenceType": "i=45",
+              "IsForward": false,
+              "Value": "i=58"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=11564"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=13353"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=17591"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=16405"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=13813"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=17496"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=15452"
+            },
+            {
+              "ReferenceType": "i=45",
+              "IsForward": true,
+              "Value": "i=14477"
+            }
+          ],
+          "NodeId": "i=61",
+          "BrowseName": "FolderType",
+          "WriteMask": 0,
+          "UserWriteMask": 0,
+          "AccessRestrictions": 0,
+          "ReleaseStatus": 0,
+          "ChildrenNodes": [],
+          "TypeDefinition": []
+        }
+      ]
+    }
+  ],
+  "TypeDefinition": [
+    {
+      "DisplayName": [
+        {
+          "Locale": "",
+          "Value": "FolderType"
+        }
+      ],
+      "References": [
+        {
+          "ReferenceType": "i=45",
+          "IsForward": false,
+          "Value": "i=58"
+        },
+        {
+          "ReferenceType": "i=45",
+          "IsForward": true,
+          "Value": "i=11564"
+        },
+        {
+          "ReferenceType": "i=45",
+          "IsForward": true,
+          "Value": "i=13353"
+        },
+        {
+          "ReferenceType": "i=45",
+          "IsForward": true,
+          "Value": "i=17591"
+        },
+        {
+          "ReferenceType": "i=45",
+          "IsForward": true,
+          "Value": "i=16405"
+        },
+        {
+          "ReferenceType": "i=45",
+          "IsForward": true,
+          "Value": "i=13813"
+        },
+        {
+          "ReferenceType": "i=45",
+          "IsForward": true,
+          "Value": "i=17496"
+        },
+        {
+          "ReferenceType": "i=45",
+          "IsForward": true,
+          "Value": "i=15452"
+        },
+        {
+          "ReferenceType": "i=45",
+          "IsForward": true,
+          "Value": "i=14477"
+        }
+      ],
+      "NodeId": "i=61",
+      "BrowseName": "FolderType",
+      "WriteMask": 0,
+      "UserWriteMask": 0,
+      "AccessRestrictions": 0,
+      "ReleaseStatus": 0,
+      "ChildrenNodes": [],
+      "TypeDefinition": []
+    }
+  ]
+}
