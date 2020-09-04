@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><UANodeSet xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <NamespaceUris>
+        <Uri>http://cesmii.net/SMProfiles/HydraulicPress</Uri>
+    </NamespaceUris>
+    <UAVariable AccessLevel="1" BrowseName="1:TimeBlocked" DataType="i=10" Historizing="0" MinimumSamplingInterval="0.000000" NodeId="ns=1;i=9961" ValueRank="-2" WriteMask="0">
+        <DisplayName>TimeBlocked</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=19169</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=63</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable AccessLevel="1" BrowseName="1:TimeStarved" DataType="i=10" Historizing="0" MinimumSamplingInterval="0.000000" NodeId="ns=1;i=16827" ValueRank="-2" WriteMask="0">
+        <DisplayName>TimeStarved</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=19169</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=63</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable AccessLevel="1" BrowseName="1:RatedPressure" DataType="i=10" Historizing="0" MinimumSamplingInterval="0.000000" NodeId="ns=1;i=28745" ValueRank="-2" WriteMask="0">
+        <DisplayName>RatedPressure</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=46">ns=1;i=13977</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=68</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable AccessLevel="1" BrowseName="1:SetupCycles" DataType="i=27" Historizing="0" MinimumSamplingInterval="0.000000" NodeId="ns=1;i=5705" ValueRank="-2" WriteMask="0">
+        <DisplayName>SetupCycles</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=19169</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=63</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable AccessLevel="1" BrowseName="1:ScrapCount" DataType="i=26" Historizing="0" MinimumSamplingInterval="0.000000" NodeId="ns=1;i=24464" ValueRank="-2" WriteMask="0">
+        <DisplayName>ScrapCount</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=19169</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=63</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable AccessLevel="1" BrowseName="1:CurrentState" DataType="i=19" Historizing="0" MinimumSamplingInterval="0.000000" NodeId="ns=1;i=11478" ValueRank="-2" WriteMask="0">
+        <DisplayName>CurrentState</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=19169</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=63</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable AccessLevel="1" BrowseName="1:CurrentTemperature" DataType="i=10" Historizing="0" MinimumSamplingInterval="0.000000" NodeId="ns=1;i=22386" ValueRank="-2" WriteMask="0">
+        <DisplayName>CurrentTemperature</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=13977</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=63</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable AccessLevel="1" BrowseName="1:ProductionCount" DataType="i=27" Historizing="0" MinimumSamplingInterval="0.000000" NodeId="ns=1;i=29358" ValueRank="-2" WriteMask="0">
+        <DisplayName>ProductionCount</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=19169</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=63</Reference>
+        </References>
+    </UAVariable>
+    <UAObject BrowseName="1:HydraulicPressCondition" EventNotifier="0" NodeId="ns=1;i=7376" WriteMask="0">
+        <DisplayName>HydraulicPressCondition</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=41</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=11165</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=13977</Reference>
+        </References>
+    </UAObject>
+    <UAVariable AccessLevel="1" BrowseName="1:TimeFaulted" DataType="i=10" Historizing="0" MinimumSamplingInterval="0.000000" NodeId="ns=1;i=23281" ValueRank="-2" WriteMask="0">
+        <DisplayName>TimeFaulted</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=19169</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=63</Reference>
+        </References>
+    </UAVariable>
+    <UAVariable AccessLevel="1" BrowseName="1:TimeRunning" DataType="i=10" Historizing="0" MinimumSamplingInterval="0.000000" NodeId="ns=1;i=28145" ValueRank="-2" WriteMask="0">
+        <DisplayName>TimeRunning</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=19169</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=63</Reference>
+        </References>
+    </UAVariable>
+    <UAObject BrowseName="1:HydraulicPressPerformance" EventNotifier="0" NodeId="ns=1;i=19169" WriteMask="0">
+        <DisplayName>HydraulicPressPerformance</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=41</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=11478</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=29358</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=24464</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=5705</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=28145</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=11166</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=23281</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=16827</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=9961</Reference>
+        </References>
+    </UAObject>
+    <UAObjectType BrowseName="1:HydraulicPressBaseType" IsAbstract="false" NodeId="ns=1;i=41" WriteMask="0">
+        <DisplayName>HydraulicPressBaseType</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=45">i=58</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=19169</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=7376</Reference>
+        </References>
+    </UAObjectType>
+    <UAVariable AccessLevel="1" BrowseName="1:CurrentPressure" DataType="i=10" Historizing="0" MinimumSamplingInterval="0.000000" NodeId="ns=1;i=5021" ValueRank="-2" WriteMask="0">
+        <DisplayName>CurrentPressure</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=13977</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=63</Reference>
+        </References>
+    </UAVariable>
+    <UAObject BrowseName="1:HydraulicPressConditionZone" EventNotifier="0" NodeId="ns=1;i=13977" WriteMask="0">
+        <DisplayName>HydraulicPressConditionZone</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=47">ns=1;i=7376</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=11165</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=22386</Reference>
+            <Reference IsForward="true" ReferenceType="i=47">ns=1;i=5021</Reference>
+            <Reference IsForward="true" ReferenceType="i=46">ns=1;i=28745</Reference>
+            <Reference IsForward="true" ReferenceType="i=46">ns=1;i=26924</Reference>
+        </References>
+    </UAObject>
+    <UAVariable AccessLevel="1" BrowseName="1:RatedTemperature" DataType="i=26" Historizing="0" MinimumSamplingInterval="0.000000" NodeId="ns=1;i=26924" ValueRank="-2" WriteMask="0">
+        <DisplayName>RatedTemperature</DisplayName>
+        <References>
+            <Reference IsForward="false" ReferenceType="i=46">ns=1;i=13977</Reference>
+            <Reference IsForward="true" ReferenceType="i=40">i=68</Reference>
+        </References>
+    </UAVariable>
+</UANodeSet>
