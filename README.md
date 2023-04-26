@@ -4,11 +4,11 @@
 
 SM Profiles™ have multiple uses throughout a smart manufacturing stack, but the simplest conceptual explanation is that they start their life as a Type definition.
 
-Specifically, CESMII has chosen a JSON serialization of an OPC UA Information Model Type definition as our starting point. While the SM Profile contains more parts than just the Type definition, you can start creating SM Profiles now, by using tools like Beeond's [OPC UA Information Model eXcelerator (UMX Pro)](https://beeond.net/opc-ua-information-model-excelerator-umx-pro-download/).
+Specifically, CESMII has chosen an OPC UA Information Model Type definition as our starting point. While the SM Profile contains more parts than just the Type definition, you can start creating SM Profiles now, by using tools like CESMII's [Profile Designer](https://profiledesigner.cesmii.net) or Beeond's [OPC UA Information Model eXcelerator (UMX Pro)](https://beeond.net/opc-ua-information-model-excelerator-umx-pro-download/).
 
 CESMII's first goal with SM Profiles is to see a standarization of Type definitions that can be exchanged between industry members. As an example, an OEM sells a piece of equipment and includes a SM Profile that describes the characteristics of the equipment and the run-time data available within it. This SM Profile, or Type definition, can be used to build information systems, as features for a machine learning algorithm, or to communicate energy consumption information to potential customers.
 
-So far, SM Profiles are 100% in-line with the capabilities of an OPC UA Information Model -- but don't fully realise CESMII's vision. CESMII and the OPC Foundation have formed a joint working group with a goal to make Information Models redistributable, via a Cloud Library, to allow the hydration of pre-created information models in a remote server.
+So far, SM Profiles are 100% in-line with the capabilities of an OPC UA Information Model -- but in its current state, these don't fully realise CESMII's vision. As a step in that direction, CESMII and the OPC Foundation have formed a joint working group with a goal to make Information Models redistributable, via a Cloud Library, to allow the hydration of pre-created information models in a remote server.
 
 ### Part 1
 
@@ -21,14 +21,17 @@ Part 1 of the SM Profile effort is aligned with OPC UA Information Models ([Part
 
 ### Part 2
 
-In Part 2 of the SM Profile effort, we add information to a Type definition that specifies how to bind an instance of the Type to particular protocol.
+In Part 2 of the SM Profile effort, we add information to a Type definition that specifies how to bind an instance of the Type to particular protocol. There is a one-to-many relationship between a Part 1 Profile and Part 2 Profiles for various implementation-specific bindings.
 
 As an example, the abstract Type definition includes a property for the current die temperature in the machine. The actual implementation of the machine, however, may very depending on vendor or generation, so the SM Profile binding extensions can be seperately published that indicate how to bind the temperature value to a tag in a PLC or value from a sensor.
+
+As of this writing, a candidate format for Part 2 is the [W3C Web Of Things](https://www.w3.org/WoT/) specification, which provides a JSON document format that can be used for binding a variety of protocols to an Information Model. An implementation of this approach can be found [here](https://github.com/OPCFoundation/UA-EdgeTranslator)
 
 ### Other Parts
 
 As the membership collaborates with standards bodies, we've identified some additional capabilities we want to include in SM Profiles, that will be added over time. Some of the ideas currently being discussed include:
 - Ontologies for attributes and measurement units
+- An extension that provides for programmability and logic execution
 - Combinations of SM Profiles and Ontologies (Libraries) for rapid system implementation
 - Implementation of event members for Workflow integration
 - SM Profiles for Supply Chain transactions
