@@ -39,22 +39,22 @@ Where ever possible, CESMII will be adopting existing standards, extending them 
 
 ## Application
 
-As an open specification, SM Profiles™ can be implemented by any platform. However, CESMII and its members are developing an implementation that can be used for reference, rapid innovation, and production use of the SM Profile capabilities. This Smart Manufacturing Innovation Platform™ (or SMIP™) includes a secure API that allows developers to build against SM Profile instances as an interface contract -- meaning an app can be written once, and re-deployed against any platform that implements the SM Profile. [Read more about the GraphQL API here](https://github.com/cesmii/API).
+As an open specification, SM Profiles™ can be implemented by any platform. However, CESMII and its members are developing an implementation that can be used for reference, rapid innovation, and production use of the SM Profile capabilities. A Smart Manufacturing Innovation Platform™ (or SMIP™) provides a secure, open API that allows developers to build against SM Profile instances as an interface contract -- meaning an app can be written once, and re-deployed against any platform that implements the SM Profile. [Read more about the API here](https://github.com/cesmii/API).
 
-Although its not strictly necessary, to fully realize the vision of the SM Profile, it needs to be applied at multiple levels. The CESMII SM Innovation Platform articulates three levels (other platforms may approach these problems differently).
+Although its not strictly necessary, to fully realize the vision of the SM Profile, it needs to be applied at multiple levels. The CESMII SM Innovation Platform define articulates three levels (other platforms may approach these problems differently).
 
 ### Edge
 
-At the Edge, the SM Platform uses a connector that acts as a proxy for connected assets that cannot (or should not) directly communicate with an information system.
+At the Edge, a SM Platform uses a connector that acts as a proxy for connected assets that cannot (or should not) directly communicate with an information system.
 
-The SM Edge™ applies the SM Profile via protocol specific adapters to determine 1) what data to collect 2) how to extract it from the asset
+An Edge or Gateway can apply the SM Profile via protocol specific adapters to determine 1) what data to collect 2) how to extract it from the asset.
 
 ### Platform Core
 
-At the Core, the SMIP aggregates data from 1 or more SM Edge connectors and enforces the SM Profile definition into strongly-typed instances. Data can be stored in the SMIP Core, with the in-cluster PostGresQL database, or streamed to an external data store as objects. Objects in the SMIP Core™ are stored in Graph relationship to each other, to facilitate analysis that requires more than just a hierarchical object organization (although hierarchies, like S95, are one supported set of relationships.)
+At the Core, a SM Platform aggregates data from 1 or more SM Edge connectors and enforces the SM Profile definition into strongly-typed instances. Objects in a Platform Core are stored in Graph relationship to each other, to facilitate analysis that requires more than just a hierarchical object organization (although hierarchies, like S95, are one supported set of relationships.)
 
-The SMIP Core is also responsible for surfacing the API. Using GraphQL, the API allows developers to discover the Type of each Object, and queries Objects and their relationships at run time.
+A SMIP Core is also responsible for surfacing the API. The API allows developers to discover the Type of each Object, and queries Objects and their relationships at run time.
 
 ### Apps
 
-Applications developed against the GraphQL API are fully portable between SMIP instances and to other platforms that implement the API and SM Profiles.
+Applications developed against the Open API are fully portable between SMIP instances and to other platforms that implement the API and SM Profiles.
