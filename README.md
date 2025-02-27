@@ -1,5 +1,11 @@
 # Smart Manufacturing Profiles
 
+## Updates
+
+Since initial publication in 2020, the SM Profile concept has taken on a life of its own -- it now lives well beyond this repo, in the form of more than 100 companion specifications, dozens of CESMII member contributions, hardware, software, and multiple libraries that cascade from an authoritative root, through crowd sourcing, and even private libraries of internal Namespaces. While the concepts haven't changed, and this sparse documentation may still be useful, there's much more to learn in ongoing conversation with practioners. Some of those call the effort to standardize information models a "Unified Namespace" -- such nomenclature is welcome in the conversation. Ultimately, the ability to know and share a contract (template, schema, Class, Namespace) for a set of data -- independent of an instance of that data -- remains the ideal we all need to work toward!
+
+You can see some of the implementations of Profiles, or tools using Profiles at [CESMII's Marketplace](https://marketplace.cesmii.net), or read on to learn more about the concept and approach.
+
 ## Concepts
 
 SM Profiles™ have multiple uses throughout a smart manufacturing stack, but the simplest conceptual explanation is that they start their life as a Type definition (the building blocks of a Namespace).
