@@ -16,8 +16,7 @@ In Part 1 of the SM Profile effort, we add information to allow distribution of 
 
 We'll allow SM Profile creators to extend existing SM Profiles, either at design-time, through Class inheritance, or at run-time, through polymorphism, by publishing SM Profiles in fragments, that get assembled on-the-fly.
 
-Part 1 of the SM Profile effort is aligned with OPC UA Information Models ([Part 5 of the UA Specification](https://reference.opcfoundation.org/v104/Core/docs/Part5/)). Examples of these Information Models can be found here:
-[https://github.com/OPCFoundation/UA-Nodeset](https://github.com/OPCFoundation/UA-Nodeset)
+Part 1 of the SM Profile effort is aligned with OPC UA Information Models ([Part 5 of the UA Specification](https://reference.opcfoundation.org/v104/Core/docs/Part5/)). Examples of these Information Models can be found on the [CESMII Marketplace](https://marketplace.cesmii.net), the [OPC Cloud Library](https://github.com/OPCFoundation/UA-CloudLibrary), or on [GitHub](https://github.com/OPCFoundation/UA-Nodeset):
 
 ### Part 2
 
