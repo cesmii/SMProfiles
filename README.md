@@ -2,7 +2,7 @@
 
 ## Concepts
 
-SM Profiles™ have multiple uses throughout a smart manufacturing stack, but the simplest conceptual explanation is that they start their life as a Type definition.
+SM Profiles™ have multiple uses throughout a smart manufacturing stack, but the simplest conceptual explanation is that they start their life as a Type definition (the building blocks of a Namespace).
 
 Specifically, CESMII has chosen an OPC UA Information Model Type definition as our starting point. While the SM Profile contains more parts than just the Type definition, you can start creating SM Profiles now, by using tools like CESMII's [Profile Designer](https://profiledesigner.cesmii.net) or Siemen's [Siome](https://support.industry.siemens.com/cs/document/109755133/siemens-opc-ua-modeling-editor-(siome)?lc=en-WW&dti=0).
 
