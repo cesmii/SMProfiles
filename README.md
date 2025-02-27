@@ -8,7 +8,7 @@ Specifically, CESMII has chosen an OPC UA Information Model Type definition as o
 
 CESMII's first goal with SM Profiles is to see a standarization of Type definitions that can be exchanged between industry members -- independent of communication protocol or information infrastructure. As an example, an OEM sells a piece of equipment and includes a SM Profile that describes the characteristics of the equipment and the run-time data available within it. This SM Profile, or Type definition, can be used to build information systems, as features for a machine learning algorithm, or to communicate energy consumption information to potential customers.
 
-So far, SM Profiles are 100% in-line with the capabilities of an OPC UA Information Model -- but in its current state, these don't fully realise CESMII's vision. As a step in that direction, CESMII and the OPC Foundation have formed a joint working group with a goal to make Information Models redistributable, via a Cloud Library, to allow the hydration of pre-created information models in a remote server.
+So far, SM Profiles are 100% in-line with the capabilities of an OPC UA Information Model -- but in its current state, these don't fully realise CESMII's vision. As a step in that direction, CESMII and the OPC Foundation run a joint working group that make Information Models redistributable, via a free and open source [Cloud Library](https://github.com/cesmii/CESMII-CloudLibrary), to allow the hydration of pre-created information models in a remote server.
 
 ### Part 1
 
